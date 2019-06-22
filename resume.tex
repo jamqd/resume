@@ -1,0 +1,181 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{https://www.johndang.me/}{\Large John Dang}} & Email : \href{mailto:jamqd@ucla.edu}{jamqd@ucla.edu}\\
+  \href{https://www.johndang.me/}{johndang.me} & Phone : +1 (669) 294 3916\\
+  San Jose / Los Angeles, CA & Github : \href{https://github.com/jamqd}{jamqd}\\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of California, Los Angeles}{Los Angeles, CA}
+      {Bachelor of Science in Computer Science; Achievement Scholarship Recipient}{Sep. 2018 -- Jun. 2022}
+      \resumeItemListStart
+        \resumeItem{Relevant Coursework}{
+            Algorithms and Complexity, Data Strucrtures and Algorithms, Proof-based Probability Theory,
+            Linear Algerbra, Multivariate Calculus, Software Construction, Research, Statistical Reasoning
+        }
+        \resumeItem{Student Organizations}{
+            Association for Computing Machinery (AI Projects Officer), DataRes (Lead Project Manager)
+        }
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Center for Vision Cognition Learning and Autonomy (VCLA)}{UCLA CS and Stats Department}
+      {Research Intern}{May 2019 - Present}
+      \resumeItemListStart
+        \resumeItem{Research}
+          {reinforcement learning and casual learning in collboration with Mark Edmonds and Xu Xie.}
+        \resumeItem{VRGym}
+          {Developing a platform for physical and interative AI/robotics research in realistic 3D-environments.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Sike AI \href{https://sikeinsights.com/}{(sikeinsights.com)}}{Los Angeles, CA}
+      {Deep Learning Engineer }{Oct 2018 - Present}
+      \resumeItemListStart
+        \resumeItem{Background}
+          {Sike is an enterprise software company. We are backed by the Anderson Venture Accelerator.}
+        \resumeItem{Personality Trait Extraction}
+          {Developed core deep learning models for five-factor OCEAN personality trait extraction from text,
+          audio, and video.}
+        \resumeItem{Software and Data Engineering}
+          {Dataduct an open source workflow framework to create and manage data pipelines leveraging reusables patterns to expedite developer productivity.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Ozcan Research Group}{UCLA ECE Department}
+      {Machine Learning Researcher}{Oct 2018 - Jun 2019}
+      \resumeItemListStart
+        \resumeItem{Research Project}
+          {Howard Hughes Medical Institute project for machine learning enabled mobile microscopy.}
+        \resumeItem{QuantDesk}
+          {Python backend for a web application used by hedge fund managers for portfolio management.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Logos}{Los Angeles, CA}
+      {Software Engineering Intern}{Oct 2018 - Dec 2018}
+      \resumeItemListStart
+        \resumeItem{iOS App Development}
+          {Developed iOS app for a crowd-sourcede news platform in Swift.}
+        \resumeItem{Highlighting Social Feature}
+            {Developed social feature that enabled users to highlight specific lines in articles for 
+            interaction with other users.}
+          \resumeItem{Database Development}
+          {Restructure Firebase database and rewrote NodeJS back-end data processing functions that enabled
+          faster app loading and performance.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{QuantSoftware Toolkit}
+      {Open source python library for financial data analysis and machine learning for finance.}
+    \resumeSubItem{Github Visualization}
+      {Data Visualization of Git Log data using D3 to analyze project trends over time.}
+  \resumeSubHeadingListEnd
+
+
+% --------SKILLS------------
+\section{Skills}
+ \resumeSubHeadingListStart
+    \resumeSubItem{Languages}
+    {Python, C++, C, Java, Javascript, Bash, Swift, HTML, CSS}
+    \resumeSubItem{Machine Learning / Data Science}
+    {Tensorflow, Keras, Numpy, Pandas, Jupyter, SQL, Firebase}
+    \resumeSubItem{Amazon Web Services}
+    {Elastic Compute Cloud, Simple Storage Service, Relational Database Service, Elastic Beanstalk}
+    \resumeSubItem{Other Technologies}
+    {Git, Github, Docker, LaTeX, Google Cloud Platform APIs, Microsoft Azure Cognitive Services APIs, Linux,
+    MacOS, Windows}
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
