@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1561165676 "/Users/johndang/git/resume/resume.tex" "/Users/johndang/git/resume/resume.pdf" "resume" 1561165677
-  "/Users/johndang/git/resume/resume.aux" 1561165677 1009 bcb64cbfd496d94ffd3f421d477a2cf8 ""
-  "/Users/johndang/git/resume/resume.tex" 1561165676 6490 aec1e9a65fd89bb3aeefe3eb595416e4 ""
+["pdflatex"] 1561250966 "/Users/johndang/git/resume/resume.tex" "/Users/johndang/git/resume/resume.pdf" "resume" 1561250967
+  "/Users/johndang/git/resume/resume.aux" 1561250967 1009 55aed2a4364b92993792101aa86e16ae ""
+  "/Users/johndang/git/resume/resume.tex" 1561250966 6552 308f12597ddf5bccaace106633a38b26 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -66,13 +66,13 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1523934516 4220280 10cab8fbd7c5a7c52aba9917e190d018 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "resume.aux" 1561165677 1009 bcb64cbfd496d94ffd3f421d477a2cf8 ""
-  "resume.out" 1561165677 173 f0cd9cddc4cf35d7848e3d8a51f4827e ""
-  "resume.tex" 1561165676 6490 aec1e9a65fd89bb3aeefe3eb595416e4 ""
+  "resume.aux" 1561250967 1009 55aed2a4364b92993792101aa86e16ae ""
+  "resume.out" 1561250967 173 230ec93e87479dc6ea25a158b10241ab ""
+  "resume.tex" 1561250966 6552 308f12597ddf5bccaace106633a38b26 ""
   (generated)
-  "/Users/johndang/git/resume/resume.log"
-  "/Users/johndang/git/resume/resume.pdf"
   "resume.out"
   "resume.pdf"
-  "resume.aux"
   "resume.log"
+  "/Users/johndang/git/resume/resume.log"
+  "/Users/johndang/git/resume/resume.pdf"
+  "resume.aux"
