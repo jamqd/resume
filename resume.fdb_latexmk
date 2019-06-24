@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1561335949 "/Users/johndang/git/resume/resume.tex" "/Users/johndang/git/resume/resume.pdf" "resume" 1561335949
-  "/Users/johndang/git/resume/resume.aux" 1561335949 928 607294e5797a6ba3b52154685927ff3a ""
-  "/Users/johndang/git/resume/resume.tex" 1561335949 7057 386d15b73d8712f670d06167f799d943 ""
+["pdflatex"] 1561339242 "/Users/johndang/git/resume/resume.tex" "/Users/johndang/git/resume/resume.pdf" "resume" 1561339242
+  "/Users/johndang/git/resume/resume.aux" 1561339242 928 607294e5797a6ba3b52154685927ff3a ""
+  "/Users/johndang/git/resume/resume.tex" 1561339242 7632 d1185b60b58d259943946a22c57329a8 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1480098701 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2018/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1480098701 1324 c910af8c371558dc20f2d7822f66fe64 ""
@@ -66,13 +66,13 @@
   "/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1523934492 2717033 f61a5287d9c22a39a74f1979fe3f905c ""
   "/usr/local/texlive/2018/texmf-var/web2c/pdftex/pdflatex.fmt" 1523934516 4220280 10cab8fbd7c5a7c52aba9917e190d018 ""
   "/usr/local/texlive/2018/texmf.cnf" 1523934483 577 0b39adfd7c93507ff20c9c14c2f1a33f ""
-  "resume.aux" 1561335949 928 607294e5797a6ba3b52154685927ff3a ""
-  "resume.out" 1561335949 130 f2d9f2a93c734375504b28158dc0fb88 ""
-  "resume.tex" 1561335949 7057 386d15b73d8712f670d06167f799d943 ""
+  "resume.aux" 1561339242 928 607294e5797a6ba3b52154685927ff3a ""
+  "resume.out" 1561339242 130 f2d9f2a93c734375504b28158dc0fb88 ""
+  "resume.tex" 1561339242 7632 d1185b60b58d259943946a22c57329a8 ""
   (generated)
   "resume.out"
+  "/Users/johndang/git/resume/resume.log"
+  "/Users/johndang/git/resume/resume.pdf"
   "resume.log"
   "resume.aux"
-  "/Users/johndang/git/resume/resume.pdf"
   "resume.pdf"
-  "/Users/johndang/git/resume/resume.log"
