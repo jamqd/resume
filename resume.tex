@@ -75,7 +75,7 @@
 %----------HEADING-----------------
 \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
   \textbf{\href{https://www.johndang.me/}{\Large John Dang}} & Email : \href{mailto:jamqd@ucla.edu}{jamqd@ucla.edu}\\
-  \href{https://www.johndang.me/}{johndang.me} & Phone : +1 (669) 294 3916\\
+  Website: \href{https://www.johndang.me/}{johndang.me} & Phone : +1 (669) 294 3916\\
   San Jose / Los Angeles, CA & Github : \href{https://github.com/jamqd}{jamqd}\\
 \end{tabular*}
 
@@ -92,7 +92,7 @@
             Linear Algerbra, Multivariate Calculus, Software Construction, Research, Statistical Reasoning
         }
         \resumeItem{Student Organizations}{
-            Association for Computing Machinery (AI Projects Officer), DataRes (Lead Project Manager)
+            Association for Computing Machinery (AI Officer), DataRes (Project Manager)
         }
       \resumeItemListEnd
   \resumeSubHeadingListEnd
@@ -101,51 +101,48 @@
 %-----------EXPERIENCE-----------------
 \section{Experience}
   \resumeSubHeadingListStart
-
     \resumeSubheading
-      {Center for Vision Cognition Learning and Autonomy (VCLA)}{UCLA CS and Stats Department}
+      {Center for Vision Cognition Learning and Autonomy \href{https://vcla.stat.ucla.edu/}{(VCLA)}}{UCLA CS and Stats Department}
       {Research Intern}{May 2019 - Present}
       \resumeItemListStart
-        \item {Researching reinforcement learning and casual learning in collboration with Mark Edmonds 
-        and Xu Xie.}
-        \item {Developing VRGym, a platform for physical and interative AI/robotics research in realistic 
-        3D environments.}
+        \item {Researching reinforcement learning and casual transfer learning including applications in robotics}
+        \item {Developing VRGym, a platform for physical and interative AI/robotics research. VRGym 
+        enables reinforcement learning research in physically and visually realistic 3D environments.}
       \resumeItemListEnd
 
     \resumeSubheading
       {Sike AI \href{https://sikeinsights.com/}{(sikeinsights.com)}}{Los Angeles, CA}
       {Deep Learning Engineer }{Oct 2018 - Present}
       \resumeItemListStart
-        \item{Sike is an enterprise software company. We are backed by the Anderson Venture Accelerator.}
         \item{Developed core deep learning models for five-factor OCEAN personality trait extraction from text,
           audio, and video. On average, my model accurately predicts personality scores within 0.015 (Each 
           personality trait is a real number between 0 and 1.0).} 
         \item {Built data infrastructure. Setup data ingestion and procressing on AWS EC2, S3, and RDS. 
-              Ran distibuted deep learning training across multiple GPUs.}
+              Ran distibuted deep learning model training across multiple GPUs.}
         \item {Deployed Tensorflow deep learning model on Flask server for use with all Sike products 
-              on AWS EBS.}
+              on AWS EBS. Deep learning model is used to provide companies insights to their employees, 
+              enabling managers to better onboard and work with new hires.}
       \resumeItemListEnd
-
+    
     \resumeSubheading
-      {Ozcan Research Group}{UCLA ECE Department}
-      {Machine Learning Researcher}{Oct 2018 - Jun 2019}
+      {Ozcan Research Group \href{https://org.ee.ucla.edu/}{(org.ee.ucla.edu)}}{UCLA ECE Department}
+      {Machine Learning Researcher (Howard Hughes Medical Institute Project)}{Oct 2018 - Jun 2019}
       \resumeItemListStart
-        \resumeItem{Research Project}
-          {Howard Hughes Medical Institute project for machine learning enabled mobile microscopy.}
+        \item {Developed convolutional neural network for accurate and efficient protein particle analysis 
+              used for disease diagnosis. Model can perfrom inference in 0.2 seconds per image on a 
+              Raspberry Pi.}
+        \item {Presented work at Howard Hughes Medical Institute Undergraduate Research Conference.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Logos}{Los Angeles, CA}
+      {Logos \href{https://logosnews.tech/}{(logosnews.tech)}}{Los Angeles, CA}
       {Software Engineering Intern}{Oct 2018 - Dec 2018}
       \resumeItemListStart
-        \resumeItem{iOS App Development}
-          {Developed iOS app for a new crowd-sourced  and personalized news platform in Swift.}
-        \resumeItem{Highlighting Social Feature}
-            {Developed social feature that enabled users to highlight specific lines in articles for 
-            interaction with other users.}
-        \resumeItem{Database Development}
-        {Restructured Firebase database and rewrote NodeJS back-end data processing functions that enabled
-        faster app loading and performance.}
+        \item {Developed iOS app for a new crowd-sourced  and personalized news platform in Swift.}
+        \item {Developed feature enabling users to highlight lines in articles for social
+              interaction with other users.}
+        \item {Restructured Firebase database and rewrote NodeJS back-end data processing Google Cloud
+              functions enabling faster app loading and performance.}
 
       \resumeItemListEnd
 
@@ -156,26 +153,27 @@
 \section{Skills}
  \resumeSubHeadingListStart
     \resumeSubItem{Languages}
-    {Python, C++, C, Java, Javascript, Bash, Swift, HTML, CSS}
+    {Python, C++, C, Java, Javascript, Bash, Octave, Matlab, Swift, HTML, CSS}
     \resumeSubItem{Machine Learning / Data Science}
     {Tensorflow, Keras, Numpy, Pandas, Jupyter, SQL, Firebase}
     \resumeSubItem{Amazon Web Services}
-    {Elastic Compute Cloud, Simple Storage Service, Relational Database Service, Elastic Beanstalk}
+    {EC2, S3, RDS, EBS}
     \resumeSubItem{Other Technologies}
-    {Git, Github, Docker, LaTeX, Google Cloud Platform APIs, Microsoft Azure Cognitive Services APIs, Linux,
-    MacOS, Windows}
+    {Git, Github, Docker, LaTeX, Google Cloud Platform, Microsoft Azure }
  \resumeSubHeadingListEnd
 
 
  %-----------PROJECTS-----------------
-\section{Projects}
-\resumeSubHeadingListStart
-  \resumeSubItem{Sincerely AI}
-    {Trained deep learning model that accurately classifies text as sincere or insincere on Quora insincere
-    questions dataset.}
-  \resumeSubItem{Github Visualization}
-    {Data Visualization of Git Log data using D3 to analyze project trends over time.}
-\resumeSubHeadingListEnd
+% \section{Projects}
+% \resumeSubHeadingListStart
+%   \resumeSubItem{Sincerely, AI}
+%     {Trained deep learning model that classifies text as sincere or insincere on Quora insincere
+%     questions dataset with 96\% accuracy (0.7 F1-score). Deployed model on Django server for 
+%     use with custom-built Chrome Extension and Web App interfaces.}
+%   \resumeSubItem{Perspective}
+%     {Builg Java Web App that alllows for user to read and compare two news articles side by side that 
+%     are most likely to differ in perspective. Winner of Most Useful Hack at EV Hacks III.}
+% \resumeSubHeadingListEnd
 
 
 
