@@ -18,7 +18,7 @@
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
 % A4 paper size by default, use 'letterpaper' for US letter
-\documentclass[11pt, a4paper]{awesome-cv}
+\documentclass[11pt, letterpaper]{awesome-cv}
 
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
@@ -29,7 +29,7 @@
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-red}
+\colorlet{awesome}{awesome-darknight}
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{CA63A8}
 
@@ -53,15 +53,16 @@
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
 % \photo{./examples/profile.png}
-\name{Claud D.}{Park}
-\position{Software Architect{\enskip\cdotp\enskip}Security Expert}
-\address{42-8, Bangbae-ro 15-gil, Seocho-gu, Seoul, 00681, Rep. of KOREA}
+\name{John}{Dang}
+\position{Computer Science Student{\enskip\cdotp\enskip}AI / ML Researcher{\enskip\cdotp\enskip}Software Engineer}
+\address{Permanent Address: 3450 Judi Ann Ct, San Jose, CA 95148\\
+ School Address (UCLA): Sproul Hall 628, 330 De Neve Dr, Los Angeles, CA 90024}
 
-\mobile{(+82) 10-9030-1843}
-\email{posquit0.bj@gmail.com}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
+\mobile{(+1) 669-294-3916}
+\email{jamqd@ucla.edu}
+\homepage{www.johndang.me}
+\github{jamqd}
+\linkedin{johnamqdang}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
@@ -69,11 +70,12 @@
 % \reddit{reddit-id}
 % \medium{madium-id}
 % \googlescholar{googlescholar-id}{name-to-display}
-%% \firstname and \lastname will be used
+%% \firstname and \lastname will  be used
 % \googlescholar{googlescholar-id}{}
-% \extrainfo{extra informations}
+\extrainfo{United States Citizen}
 
-\quote{``Be the change that you want to see in the world."}
+
+%\quote{``Be the change that you want to see in the world."}
 
 
 %-------------------------------------------------------------------------------
@@ -82,12 +84,11 @@
 % Print the header with above personal informations
 % Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader
-
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
   {\today}
-  {Claud D. Park~~~·~~~Curriculum Vitae}
+  {John Dang~~~·~~~Curriculum Vitae}
   {\thepage}
 
 
@@ -96,13 +97,11 @@
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
 \input{cv/education.tex}
-\input{cv/skills.tex}
+\input{cv/research.tex}
 \input{cv/experience.tex}
-\input{cv/extracurricular.tex}
 \input{cv/honors.tex}
-\input{cv/presentation.tex}
-\input{cv/writing.tex}
-\input{cv/committees.tex}
+\input{cv/skills.tex}
+\input{cv/projects_ec.tex}
 
 
 %-------------------------------------------------------------------------------
